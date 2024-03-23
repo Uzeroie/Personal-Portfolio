@@ -1,0 +1,168 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #ffbad3;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 80px;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Container Styles */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Home Section Styles */
+.home-section {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.home-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.home-text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.home-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ff6b81;
+}
+
+.home-text p {
+    margin-bottom: 20px;
+}
+
+.home-image img {
+    max-width: 150%;
+    height: auto;
+    max-height: 328px; /* Adjust the maximum height as needed */
+    border-radius: 80px;
+}
+
+
+/* About Me Section Styles */
+.about-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ff6b81;
+}
+
+/* Blog Section Styles */
+.blog-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ff6b81;
+}
+
+.blog-section h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #ff6b81;
+}
+
+/* Contact Us Section Styles */
+.contact-section h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ff6b81;
+}
+
+/* Form Styles */
+form {
+    margin-top: 20px;
+}
+
+form label {
+    font-weight: bold;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form textarea {
+    resize: none;
+    height: 150px;
+}
+
+form button {
+    background-color: #ff6b81;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #ff4757;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: #ffbad3;
+    color: #333;
+    border-radius: 0 0 10px 10px;
+}
